@@ -1,6 +1,6 @@
 # Job Recruitment Platform - Group 12
 
-A modern web-based job recruitment system built by Group 12 for the Internet Programming course. The platform supports job seekers, recruiters, and admin roles with features like job posting, job applications, admin control, and profile management.
+A modern web-based job recruitment system. The platform supports job seekers, recruiters, and admin roles with features like job posting, job applications, admin control, and profile management.
 
 ##  Features
 
@@ -19,7 +19,8 @@ A modern web-based job recruitment system built by Group 12 for the Internet Pro
 - **Database**: MongoDB (assumed based on typical stack)
 - **Other Tools**: Formik + Yup (form validation), file uploads
 
-## Folder Structure (key parts)
+## Folder Structure 
+Fron End
 
 ```
 JobRecruitmentGroup_12/
@@ -34,7 +35,34 @@ JobRecruitmentGroup_12/
 ├── package.json
 ├── vite.config.js
 ```
+Back End
 
+controllers/
+├── adminController.js
+├── applyController.js
+├── contactController.js
+├── jobController.js
+├── userController.js
+
+routes/
+├── adminRoutes.js
+├── applyRoutes.js
+├── contactRoutes.js
+├── jobRoutes.js
+├── userRoutes.js
+
+models/
+├── userModel.js
+├── jobModel.js
+├── applicationModel.js
+├── contactModel.js
+
+middleware/
+├── authMiddleware.js
+
+uploads/ 
+.env
+index.js 
 ## Installation
 
 1. Clone the repository or download the ZIP.
@@ -60,6 +88,4 @@ JobRecruitmentGroup_12/
   - Admin (can manage users and view dashboard)
 
 
-## 📃 License
 
-This project is for academic use only under the 24CSCI04I - Internet Programming course.
