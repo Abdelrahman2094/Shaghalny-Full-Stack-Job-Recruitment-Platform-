@@ -36,7 +36,7 @@ JobRecruitmentGroup_12/
 ├── vite.config.js
 ```
 Back End
-
+```
 controllers/
 ├── adminController.js
 ├── applyController.js
@@ -62,7 +62,8 @@ middleware/
 
 uploads/ 
 .env
-index.js 
+index.js
+```
 ## Installation
 
 1. Clone the repository or download the ZIP.
