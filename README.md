@@ -23,7 +23,7 @@ A modern web-based job recruitment system. The platform supports job seekers, re
 Fron End
 
 ```
-JobRecruitmentGroup_12/
+FrontEnd/
 ├── public/
 ├── src/
 │   ├── assets/images/
