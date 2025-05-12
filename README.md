@@ -1,4 +1,4 @@
-# Job Recruitment Platform - Group 12
+# Job Recruitment Platform
 
 A modern web-based job recruitment system. The platform supports job seekers, recruiters, and admin roles with features like job posting, job applications, admin control, and profile management.
 
@@ -69,7 +69,8 @@ index.js
 1. Clone the repository or download the ZIP.
 2. Navigate to the project folder:
    ```bash
-   cd JobRecruitmentGroup_12
+   cd ShaghalnyFullStack
+   
    ```
 3. Install dependencies:
    ```bash
